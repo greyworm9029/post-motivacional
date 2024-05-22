@@ -1,0 +1,35 @@
+/* Importando as fontes customizadas do Google Fonts */
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap);
+
+/* Estilizando o "body" com a cor de fundo preta*/
+body {
+    background-color: black;
+}
+
+/* Imagem cobre 100% da tela + 5px de borda sólida branca adicionada */
+img {
+    width: 100%;
+    border: 5px solid white;
+}
+
+/* Centralizando o "container" (img, h1 e p) */
+.container {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+
+}
+
+/* Propriedade para fazer o "h1" ficar maiúsculo */
+h1 {
+    text-transform: uppercase;
+}
+
+/* Adicionando a fonte importada + cor branca + alinhamento ao "h1" e "p" */
+h1, p {
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    text-align: center;
+}
